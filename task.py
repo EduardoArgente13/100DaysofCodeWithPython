@@ -1,5 +1,7 @@
-print("1. Mix 500g of Flour, 10g Yeast and 300ml Water in a bowl.")
-print("2. Knead the dough for 10 minutes.")
-print("3. Add 3g of Salt.")
-print("4. Leave to rise for 2 hours.")
-print("5. Bake at 200 degrees C for 30 minutes.")
+#First Project Band Name Generator
+
+print("Hi! Welcome to the band name generator where I will help you to find a possible name for you upcoming band! Let's Go")
+city = input("First, What is the name of the city you grow up in? \n")
+print("Nice! " + city + " is a lovely place!")
+pet = input("Now, What is the name of your childhood or actual pet? \n")
+print("Thanks for your answers, your band name could be " + city + " " + pet)
