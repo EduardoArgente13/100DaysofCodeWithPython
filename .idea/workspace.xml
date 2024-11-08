@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1028585e-b91f-4397-8466-976c8145d0d3" name="Changes" comment="Second Project">
-      <change afterPath="$PROJECT_DIR$/Day3.py" afterDir="false" />
+    <list default="true" id="1028585e-b91f-4397-8466-976c8145d0d3" name="Changes" comment="Third Project">
+      <change afterPath="$PROJECT_DIR$/Day4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,12 @@
     &quot;accountId&quot;: &quot;1a2dab11-9cb2-42e3-897d-1b7222c57c43&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Day4.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -49,6 +54,7 @@
   "keyToString": {
     "Python.Day2.executor": "Run",
     "Python.Day3.executor": "Run",
+    "Python.Day4.executor": "Run",
     "Python.task.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -80,7 +86,8 @@
       <workItem from="1730829882383" duration="5495000" />
       <workItem from="1730835447502" duration="13000" />
       <workItem from="1730907030767" duration="6968000" />
-      <workItem from="1730996233507" duration="6920000" />
+      <workItem from="1730996233507" duration="7234000" />
+      <workItem from="1731089791746" duration="5968000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -138,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730916525464</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Third Project">
+      <option name="closed" value="true" />
+      <created>1731003497582</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731003497583</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,11 +176,13 @@
     <MESSAGE value="First Exercise" />
     <MESSAGE value="First Project" />
     <MESSAGE value="Second Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Project" />
+    <MESSAGE value="Third Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third Project" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/100_Days_of_Code_with_Python$task.coverage" NAME="task Coverage Results" MODIFIED="1730835123550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/100_Days_of_Code_with_Python$Day2.coverage" NAME="Day2 Coverage Results" MODIFIED="1730916513011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/100_Days_of_Code_with_Python$Day3.coverage" NAME="Day3 Coverage Results" MODIFIED="1731002549491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/100_Days_of_Code_with_Python$Day4.coverage" NAME="Day4 Coverage Results" MODIFIED="1731095709872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/100_Days_of_Code_with_Python$Day3.coverage" NAME="Day3 Coverage Results" MODIFIED="1731003405439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
