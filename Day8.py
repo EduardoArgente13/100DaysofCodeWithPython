@@ -1,10 +1,5 @@
 alphabet_lower = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
-# Get user input
-direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
-text = input("Type your message:\n").lower()
-shift = int(input("Type the shift number:\n"))
-
 def caesar_cipher(original_text, shift_amount, mode):
     result_text = ""
     # Adjust the shift direction based on mode
@@ -15,6 +10,7 @@ def caesar_cipher(original_text, shift_amount, mode):
     for letter in original_text:
         if letter in alphabet_lower:
             position = alphabet_lower.index(letter)
+            # Calculate the new position
             new_position = (position + shift_amount) % 26
             result_text += alphabet_lower[new_position]
         else:
@@ -22,7 +18,21 @@ def caesar_cipher(original_text, shift_amount, mode):
 
     print(f"Resulting Text: {result_text}")
 
-caesar_cipher(text, shift, direction)
+# Main loop to restart or exit
+while True:
+    # Get user input
+    direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
+    text = input("Type your message:\n").lower()
+    shift = int(input("Type the shift number:\n"))
+
+    # Call the function with user inputs
+    caesar_cipher(text, shift, direction)
+
+    # Ask if the user wants to restart
+    restart = input("Do you want to go again? Type 'yes' to restart or 'no' to exit:\n").lower()
+    if restart != 'yes':
+        print("Goodbye!")
+        break
 
 
 # def greet():
