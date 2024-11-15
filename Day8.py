@@ -2,7 +2,6 @@ alphabet_lower = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm
 
 def caesar_cipher(original_text, shift_amount, mode):
     result_text = ""
-    # Adjust the shift direction based on mode
     if mode == 'decode':
         shift_amount *= -1
 
