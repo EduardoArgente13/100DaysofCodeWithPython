@@ -93,3 +93,4 @@ while is_active:
                 make_coffee(drink['ingredients'])
     else:
         print("Invalid choice. Please try again.")
+        is_active = False
